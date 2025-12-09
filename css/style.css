@@ -1,16 +1,16 @@
 /* UTILITIES */
 
-[class^="container"] {
+.container-debug {
   border: 1px dashed black;
   background-color: lightblue;
   /* min-height: 80vh; */
 }
 
-[class^="row"] {
+.row-debug {
   border: 1px dashed red;
 }
 
-[class^="col"] {
+.col-debug {
   /* height: 100px; */
   background-color: #f1d2e7;
   border: 1px solid #d0a8eb;
@@ -29,4 +29,12 @@
 
 .sony-header img {
   width: 6.5rem;
+}
+
+/* JUMBOTRON */
+#jumbotron {
+  width: 100%;
+  height: 40rem;
+  background-image: url("../img/jumbo-bg.png");
+  background-position: center;
 }
