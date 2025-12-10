@@ -32,8 +32,10 @@
     <!-- HEADER -->
     <header class="sticky-top">
       <!-- SONY HEADER -->
-      <section class="sony-header">
-        <img src="./img/sony_logo.svg" alt="Logo Sony" />
+      <section class="bg-dark text-end" id="sony-header">
+        <div class="container-fluid">
+          <img src="./img/sony_logo.svg" alt="Logo Sony" />
+        </div>
       </section>
       <!-- NAVBAR -->
       <nav class="navbar navbar-expand-lg bg-light" data-bs-theme="light">
@@ -79,18 +81,24 @@
     <main>
       <!-- JUMBOTRON -->
       <section class="text-white" id="jumbotron">
-        <div class="container jumbotron-container">
-          <img class="w-50" src="./img/returnal-hero-banner-logo.png" alt="" />
-          <h1>Rompi il cerchio</h1>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi
-            velit, veniam impedit qui laborum consequatur fugit minus. Iste
-            blanditiis earum saepe quas iusto. Nisi, harum incidunt! Possimus
-            nesciunt suscipit veritatis?
-          </p>
-        </div>
-        <div class="container py-2">
-          <button class="btn btn-sm btn-custom btn-orange">Acquista ora</button>
+        <div class="container d-flex align-items-end py-4">
+          <div class="w-lg-1-3">
+            <img
+              class="w-50"
+              src="./img/returnal-hero-banner-logo.png"
+              alt=""
+            />
+            <h1 class="my-3">Rompi il cerchio</h1>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi
+              velit, veniam impedit qui laborum consequatur fugit minus. Iste
+              blanditiis earum saepe quas iusto. Nisi, harum incidunt! Possimus
+              nesciunt suscipit veritatis?
+            </p>
+            <button class="btn btn-sm btn-custom btn-orange my-2">
+              Acquista ora
+            </button>
+          </div>
         </div>
       </section>
 
@@ -496,7 +504,10 @@
           <div class="col-6">
             <div class="row">
               <div class="col-12 col-md-4 col-lg-4 d-flex flex-column">
-                <span>link footer n</span>
+                <ul>
+                  <li><a href="#">link footer n</a></li>
+                </ul>
+
                 <span>link footer n</span>
                 <span>link footer n</span>
                 <span>link footer n</span>
