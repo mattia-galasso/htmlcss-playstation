@@ -20,6 +20,7 @@
 
 .btn-custom {
   font-weight: 600;
+  border-radius: 20px;
 }
 
 .btn-orange {
@@ -29,6 +30,16 @@
 
 .btn-orange:hover {
   background-color: #b1360d;
+}
+
+.nolimits {
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.p-buy-now {
+  font-size: 0.9rem;
+  font-weight: 500;
 }
 
 /* HEADER */
@@ -60,4 +71,32 @@
   flex-direction: column;
   justify-content: flex-end;
   gap: 15px;
+}
+
+/* NEW GAME POSSIBILITY */
+.play-station-text {
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+/* IT TAKE TWO */
+
+#it-takes-two {
+  background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+  width: 100%;
+  min-height: 40rem;
+  background-position: center;
+  background-size: cover;
+}
+
+/* NEW RELEASES */
+
+#new-releases {
+  background-color: #1f1f1f;
+}
+
+.new-releases-text {
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-align: left;
 }
