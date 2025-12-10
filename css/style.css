@@ -18,8 +18,20 @@
 
 /* GENERAL */
 
+.nolimits {
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.p-0-9 {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+/*? BUTTONS */
+
 .btn-custom {
-  font-weight: 600;
+  font-weight: 500;
   border-radius: 20px;
 }
 
@@ -32,14 +44,12 @@
   background-color: #b1360d;
 }
 
-.nolimits {
-  font-size: 0.8rem;
-  font-weight: 500;
+.btn-grey {
+  background-color: #d9dadc;
 }
 
-.p-0-9 {
-  font-size: 0.9rem;
-  font-weight: 500;
+.btn-grey:hover {
+  background-color: #f2f2f3;
 }
 
 /*! MEDIA QUERY */
@@ -58,7 +68,6 @@
 }
 
 /* JUMBOTRON */
-
 #jumbotron {
   background-image: url("../img/jumbo-bg.png");
   background-position: center;
@@ -69,6 +78,22 @@
   min-height: 70vh;
 }
 
+/* GAME CARDS */
+.card-active {
+  padding: 2px;
+  border: 2px solid rgb(13 110 253);
+  border-radius: 18px;
+}
+
+.custom-card {
+  padding: 2px;
+}
+
+.custom-card:hover {
+  border: 2px solid rgb(13 110 253);
+  border-radius: 18px;
+}
+
 /* NEW GAME POSSIBILITY */
 .play-station-text {
   text-align: center;
@@ -76,7 +101,6 @@
 }
 
 /* IT TAKE TWO */
-
 #it-takes-two {
   background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
   width: 100%;
@@ -84,9 +108,7 @@
   background-position: center;
   background-size: cover;
 }
-
 /* NEW RELEASES */
-
 #new-releases {
   background-color: #1f1f1f;
 }
@@ -97,4 +119,12 @@
   text-align: left;
 }
 
-/* EXPLORE PS4 */
+/* PLAYSTATION PLUS */
+#playstation-plus {
+  background-color: rgb(168, 168, 168);
+}
+
+/* PLAYSTATION NOW */
+#playstation-now {
+  background-color: #161c3b;
+}
