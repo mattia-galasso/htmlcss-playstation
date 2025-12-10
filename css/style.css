@@ -37,7 +37,7 @@
   font-weight: 500;
 }
 
-.p-buy-now {
+.p-0-9 {
   font-size: 0.9rem;
   font-weight: 500;
 }
@@ -59,11 +59,14 @@
 
 /* JUMBOTRON */
 
-#jumbotron > .container {
-  min-height: 70vh;
+#jumbotron {
   background-image: url("../img/jumbo-bg.png");
   background-position: center;
   background-repeat: no-repeat;
+}
+
+#jumbotron > .container {
+  min-height: 70vh;
 }
 
 /* NEW GAME POSSIBILITY */
@@ -77,7 +80,7 @@
 #it-takes-two {
   background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
   width: 100%;
-  min-height: 30rem;
+  min-height: 50vh;
   background-position: center;
   background-size: cover;
 }
