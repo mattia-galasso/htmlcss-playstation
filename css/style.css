@@ -16,6 +16,17 @@
   border: 1px solid #d0a8eb;
 }
 
+/* RESET */
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
 /* GENERAL */
 
 .nolimits {
@@ -55,6 +66,16 @@
 /*! MEDIA QUERY */
 
 /* MEDIA LG */
+@media (min-width: 768px) {
+  .ps5-thumb {
+    font-size: 0.8rem;
+    font-weight: 500;
+    text-align: center;
+  }
+  .ps5-thumb > img {
+    width: 5rem;
+  }
+}
 @media (min-width: 1200px) {
   .w-lg-1-3 {
     width: calc(100% / 3);
@@ -62,9 +83,12 @@
 }
 
 /* HEADER */
-
 #sony-header img {
   height: 12px;
+}
+
+.nav-lens-btn {
+  width: 1.3rem;
 }
 
 /* JUMBOTRON */
@@ -72,6 +96,7 @@
   background-image: url("../img/jumbo-bg.png");
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #jumbotron > .container {
@@ -95,9 +120,21 @@
 }
 
 /* NEW GAME POSSIBILITY */
-.play-station-text {
-  text-align: center;
-  font-size: 0.9rem;
+#new-possibility {
+  margin-bottom: 1rem;
+}
+
+.thumb-active {
+  border-bottom: 2px solid rgb(13 110 253);
+}
+
+.thumb-border {
+  opacity: 0.5;
+}
+
+.thumb-border:hover {
+  border-bottom: 2px solid rgb(13 110 253);
+  opacity: 1;
 }
 
 /* IT TAKE TWO */
@@ -127,4 +164,20 @@
 /* PLAYSTATION NOW */
 #playstation-now {
   background-color: #161c3b;
+}
+
+/* FOOTER */
+footer {
+  min-height: 50vh;
+  background-color: #00439c;
+  color: white;
+  padding: 4rem 0;
+}
+
+.footer-play-logo {
+  width: 5rem;
+}
+
+.footer-language-globo {
+  width: 1rem;
 }
